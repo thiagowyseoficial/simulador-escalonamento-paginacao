@@ -1,0 +1,72 @@
+{
+ "n_processos": 1000,
+ "espera_media": 14133.987,
+ "espera_max": 43732,
+ "espera_max_pid": 325,
+ "turnaround_medio": 14354.36,
+ "turnaround_max": 44981,
+ "resposta_media": 7161.288,
+ "resposta_max": 42615,
+ "makespan": 44981,
+ "trocas_total": 9998,
+ "preempcoes_total": 0,
+ "utilizacao_media": 0.9901291656477179,
+ "util_total": 34539,
+ "troca_total": 9998,
+ "ocioso_total": 444,
+ "page_faults": 7056,
+ "referencias": 41595,
+ "taxa_faults": 0.1696357735304724,
+ "substituicoes": 2002,
+ "refaults_sem_vitima": 0,
+ "cpu_total_carga": 34539,
+ "es_total_carga": 34716,
+ "fila_max": 1000,
+ "por_cpu": [
+  {
+   "cpu": 0,
+   "util": 34539,
+   "troca": 9998,
+   "ocioso": 444,
+   "util_pct": 76.7857539850159,
+   "troca_pct": 22.2271625797559,
+   "ocioso_pct": 0.9870834352282075,
+   "utilizacao": 0.9901291656477179,
+   "trocas": 9998
+  }
+ ],
+ "por_classe": {
+  "curto": {
+   "n": 964,
+   "espera_media": 13356.103734439834,
+   "espera_max": 24616,
+   "turnaround_medio": 13543.357883817427,
+   "resposta_media": 6342.680497925311,
+   "cpu_total": 15872,
+   "faults": 6092
+  },
+  "longo": {
+   "n": 36,
+   "espera_media": 34963.97222222222,
+   "espera_max": 43732,
+   "turnaround_medio": 36071.194444444445,
+   "resposta_media": 29081.777777777777,
+   "cpu_total": 18667,
+   "faults": 964
+  }
+ },
+ "tempo_execucao_s": 0.38,
+ "parametros": {
+  "arquivo": "cargas/cenario_A_t0.json",
+  "cpus": 1,
+  "sched": "sjf",
+  "quantum": null,
+  "subst": "lru",
+  "quadros": 256,
+  "custo_troca": 1,
+  "fault": 20
+ },
+ "carga": "cenario_A_t0",
+ "config": "sjf_cpus1_lru_256quadros_troca1",
+ "rotulo": "SJF"
+}

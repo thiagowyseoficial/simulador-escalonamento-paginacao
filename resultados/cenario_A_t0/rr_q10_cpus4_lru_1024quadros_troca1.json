@@ -1,0 +1,105 @@
+{
+ "n_processos": 1000,
+ "espera_media": 6107.09,
+ "espera_max": 11446,
+ "espera_max_pid": 869,
+ "turnaround_medio": 6453.626,
+ "turnaround_max": 13032,
+ "resposta_media": 124.5,
+ "resposta_max": 249,
+ "makespan": 13032,
+ "trocas_total": 17401,
+ "preempcoes_total": 1448,
+ "utilizacao_media": 0.9963934929404543,
+ "util_total": 34539,
+ "troca_total": 17401,
+ "ocioso_total": 188,
+ "page_faults": 12994,
+ "referencias": 47533,
+ "taxa_faults": 0.27336797593251005,
+ "substituicoes": 9953,
+ "refaults_sem_vitima": 0,
+ "cpu_total_carga": 34539,
+ "es_total_carga": 34716,
+ "fila_max": 1000,
+ "por_cpu": [
+  {
+   "cpu": 0,
+   "util": 8608,
+   "troca": 4344,
+   "ocioso": 80,
+   "util_pct": 66.05279312461633,
+   "troca_pct": 33.333333333333336,
+   "ocioso_pct": 0.6138735420503376,
+   "utilizacao": 0.9938612645794966,
+   "trocas": 4344
+  },
+  {
+   "cpu": 1,
+   "util": 8658,
+   "troca": 4333,
+   "ocioso": 41,
+   "util_pct": 66.43646408839778,
+   "troca_pct": 33.24892572130141,
+   "ocioso_pct": 0.314610190300798,
+   "utilizacao": 0.996853898096992,
+   "trocas": 4333
+  },
+  {
+   "cpu": 2,
+   "util": 8605,
+   "troca": 4360,
+   "ocioso": 67,
+   "util_pct": 66.02977286678944,
+   "troca_pct": 33.4561080417434,
+   "ocioso_pct": 0.5141190914671577,
+   "utilizacao": 0.9948588090853284,
+   "trocas": 4360
+  },
+  {
+   "cpu": 3,
+   "util": 8668,
+   "troca": 4364,
+   "ocioso": 0,
+   "util_pct": 66.51319828115408,
+   "troca_pct": 33.48680171884592,
+   "ocioso_pct": 0.0,
+   "utilizacao": 1.0,
+   "trocas": 4364
+  }
+ ],
+ "por_classe": {
+  "curto": {
+   "n": 964,
+   "espera_media": 5929.234439834025,
+   "espera_max": 7730,
+   "turnaround_medio": 6237.107883817427,
+   "resposta_media": 125.08713692946058,
+   "cpu_total": 15872,
+   "faults": 11629
+  },
+  "longo": {
+   "n": 36,
+   "espera_media": 10869.666666666666,
+   "espera_max": 11446,
+   "turnaround_medio": 12251.5,
+   "resposta_media": 108.77777777777777,
+   "cpu_total": 18667,
+   "faults": 1365
+  }
+ },
+ "tempo_execucao_s": 0.92,
+ "parametros": {
+  "arquivo": "cargas/cenario_A_t0.json",
+  "cpus": 4,
+  "sched": "rr",
+  "quantum": 10,
+  "subst": "lru",
+  "quadros": 1024,
+  "custo_troca": 1,
+  "fault": 20
+ },
+ "carga": "cenario_A_t0",
+ "config": "rr_q10_cpus4_lru_1024quadros_troca1",
+ "rotulo": "RR q=10"
+}

@@ -1,0 +1,105 @@
+{
+ "n_processos": 1000,
+ "espera_media": 434.77,
+ "espera_max": 4896,
+ "espera_max_pid": 272,
+ "turnaround_medio": 689.616,
+ "turnaround_max": 8288,
+ "resposta_media": 38.539,
+ "resposta_max": 100,
+ "makespan": 11881,
+ "trocas_total": 11651,
+ "preempcoes_total": 0,
+ "utilizacao_media": 0.9719299722245602,
+ "util_total": 34539,
+ "troca_total": 11651,
+ "ocioso_total": 1334,
+ "page_faults": 8697,
+ "referencias": 43236,
+ "taxa_faults": 0.20115181792950318,
+ "substituicoes": 4458,
+ "refaults_sem_vitima": 0,
+ "cpu_total_carga": 34539,
+ "es_total_carga": 34716,
+ "fila_max": 98,
+ "por_cpu": [
+  {
+   "cpu": 0,
+   "util": 8823,
+   "troca": 2959,
+   "ocioso": 99,
+   "util_pct": 74.26142580590859,
+   "troca_pct": 24.90531100075751,
+   "ocioso_pct": 0.8332631933338944,
+   "utilizacao": 0.991667368066661,
+   "trocas": 2959
+  },
+  {
+   "cpu": 1,
+   "util": 8590,
+   "troca": 2945,
+   "ocioso": 346,
+   "util_pct": 72.30031142159751,
+   "troca_pct": 24.787475801700193,
+   "ocioso_pct": 2.912212776702298,
+   "utilizacao": 0.9708778722329771,
+   "trocas": 2945
+  },
+  {
+   "cpu": 2,
+   "util": 8632,
+   "troca": 2884,
+   "ocioso": 365,
+   "util_pct": 72.65381701876946,
+   "troca_pct": 24.274051005807593,
+   "ocioso_pct": 3.0721319754229444,
+   "utilizacao": 0.9692786802457706,
+   "trocas": 2884
+  },
+  {
+   "cpu": 3,
+   "util": 8494,
+   "troca": 2863,
+   "ocioso": 524,
+   "util_pct": 71.4922986280616,
+   "troca_pct": 24.097298207221613,
+   "ocioso_pct": 4.410403164716775,
+   "utilizacao": 0.9558959683528323,
+   "trocas": 2863
+  }
+ ],
+ "por_classe": {
+  "curto": {
+   "n": 964,
+   "espera_media": 353.3070539419087,
+   "espera_max": 976,
+   "turnaround_medio": 538.9927385892116,
+   "resposta_media": 38.63796680497925,
+   "cpu_total": 15872,
+   "faults": 6020
+  },
+  "longo": {
+   "n": 36,
+   "espera_media": 2616.1666666666665,
+   "espera_max": 4896,
+   "turnaround_medio": 4722.972222222223,
+   "resposta_media": 35.888888888888886,
+   "cpu_total": 18667,
+   "faults": 2677
+  }
+ },
+ "tempo_execucao_s": 0.19,
+ "parametros": {
+  "arquivo": "cargas/cenario_B_espacadas.json",
+  "cpus": 4,
+  "sched": "fcfs",
+  "quantum": null,
+  "subst": "fifo",
+  "quadros": 256,
+  "custo_troca": 1,
+  "fault": 20
+ },
+ "carga": "cenario_B_espacadas",
+ "config": "fcfs_cpus4_fifo_256quadros_troca1",
+ "rotulo": "FCFS"
+}
