@@ -1,0 +1,3 @@
+# O simulador (simulador.py, experimentos.py, gerar_carga.py) usa só a biblioteca padrão.
+matplotlib>=3.8   # graficos.py
+pytest>=8         # tests/
